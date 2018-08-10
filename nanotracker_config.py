@@ -81,17 +81,23 @@ REQUEST_HEADERS = {
 # sudo apt-get install i2c-tools libi2c-dev python-dev python3-dev
 # sudo apt-get install python3-smbus
 
-#microstack install 
-# sudo apt-get install python3-microstacknode
+# microstack install 
+# sudo apt-get install python3-microstacknode 
+######################or##########################
+# Installing with pip
+# Warning : Do not install microstacknode with both apt-get and pip as unexpected things will happen. Consider using virtual environments.
+# sudo apt-get install python3-pip  followed by
+# sudo pip3 install microstacknode
+
 # sudo apt-get install gpsd gpsd-clients python-gps
 
 #modbus install material 
 #sudo apt-get install python-pip
-# sudo -H pip install  -U pymodbus
+# sudo -H pip install  -U pymodbus 
 
 
 
-#to install pip3 and requests etc
+# To install pip3 and requests etc
 #
 #  sudo apt-get install python3-pip
 #  
@@ -112,8 +118,10 @@ REQUEST_HEADERS = {
 #  instructions can be foud here : file:///C:/Users/gardda9/Downloads/Installing%20the%20remot3.it%20connectd%20daemon%20on%2032-bit%20Ubuntu%20(1).pdf
 #
 #  wget https://github.com/weaved/installer/raw/master/Raspbian%20deb/1.3-08/connectd_1.3-08e_i386.deb
+#  wget https://github.com/remoteit/installer/blob/master/Raspbian%20deb/1.3-08/connectd_1.3-08j_i386_BETA.deb
+#
 #  sudo apt-get install curl
-#  sudo dpkg -i <<package name>>
+#  sudo dpkg -i <<package name>> (sudo dpkg -i connectd_1.3-08j_i386_BETA.deb)
 #    
 #  developerid : RDg4QkMyMzEtRTYxQy00MEZBLThBMDUtQTA5QkQyOTQ0OUU3
 #
