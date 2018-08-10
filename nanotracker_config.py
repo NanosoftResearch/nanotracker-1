@@ -83,6 +83,10 @@ REQUEST_HEADERS = {
 
 #microstack install 
 # sudo apt-get install python3-microstacknode
+#
+#
+#
+#
 # sudo apt-get install gpsd gpsd-clients python-gps
 
 #modbus install material 
